@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="app.js" defer></script>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/68977216dc.js" crossorigin="anonymous" async></script>
+</head>
+<body>
+  <header>
+    <h1>SlideShow - Testing</h1>
+  </header>
+  <main class="main">
+    <form class="settings">
+      <fieldset>
+        <div class="controller">
+          <label for="frame-width" class="label">Frame Width:</label>
+          <input class="frame" type="number" name="frame-width" id="frame-width" value="400" min="340" step="10" max="700">
+        </div><br>
+        <div class="controller">
+          <label for="frame-height" class="label">Frame-Height:</label>
+          <input class="frame" type="number" name="frame-height" id="frame-height" value="400" min="10" step="10" max="510">
+        </div><br>
+        <div class="controller">
+          <label for="color" class="label">Change Background:</label>
+          <input type="color" name="color" id="color" value="#1C3E82" min="10" step="10">
+        </div>
+      </fieldset><br>
+      <fieldset>
+      <div class="controller add-image">
+        <label for="image" class="label">Add Image: </label>
+        <input class="frame" type="file" name="image" id="image-loader" accept="image/*">
+      </div>
+      </fieldset>
+      <div class="reset-container">
+        <button type="button" id="reset">Reset</button>
+      </div>
+    </form>
+    <div class="slideshow">
+      <div class="arrow left"><</div>
+      <div class="arrow right">></div>
+      <div class="image-container">
+        <img alt="" src="images/v915-mynt-001-e.jpg">
+        <div class="background-context title">
+          <h3>SLIDESHOW</h3>
+        </div>
+        <div class="background-context">
+          <p class="start-slide">Add at least two images to enable slideshow !</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
