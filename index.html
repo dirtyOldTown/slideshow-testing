@@ -30,17 +30,18 @@
         <div class="controller">
           <label for="color" class="label">Change Background:</label>
           <input type="color" name="color" id="color" value="#1C3E82" min="10" step="10">
+        </div><br>
+        <div class="controller add-image">
+          <label for="image" class="label">Upload Image: </label>
+          <input class="frame" type="file" name="image" id="image-loader" accept="image/*">
+        </div><br>
+        <div class="number-of-images-container controller">
+          Number of uploaded images:<span class="number-of-images"> 0</span>
         </div>
-      </fieldset><br>
-      <fieldset>
-      <div class="controller add-image">
-        <label for="image" class="label">Upload Image: </label>
-        <input class="frame" type="file" name="image" id="image-loader" accept="image/*">
-      </div>
+        <div class="reset-container">
+          <button type="button" id="reset">Reset</button>
+        </div>
       </fieldset>
-      <div class="reset-container">
-        <button type="button" id="reset">Reset</button>
-      </div>
     </form>
     <div class="slideshow">
       <div class="arrow left"><</div>

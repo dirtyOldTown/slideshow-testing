@@ -12,4 +12,5 @@ export let resetBtn = document.getElementById("reset");
 export let imageLoader = document.getElementById('image-loader');
 export let startSlide = document.querySelector(".start-slide");
 export let title = document.querySelector(".background-context.title h3");
+export let numberOfImages = document.querySelector(".number-of-images");
 

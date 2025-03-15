@@ -1,7 +1,7 @@
 import { imageSrc } from "../config/imageSrc.js";
-import { leftArrow, rightArrow, startSlide } from "../config/variables.js";
+import { leftArrow, rightArrow, startSlide, numberOfImages } from "../config/variables.js";
 import { moveSlideLeft, moveSlideRight } from "./moveSlide.js";
-import { changeDisplay } from "../middleware/changeDisplay.js";
+import { replaceHtml } from "../middleware/replaceHtml.js";
 
 // Download an image from a user and add it to a slideshow sequence
 
@@ -12,10 +12,11 @@ function slideController(e) {
     img.src = event.target.result;
     if (!imageSrc.includes(img.src)) {
       imageSrc.push(img.src);
+      numberOfImages.textContent = " " + imageSrc.length;
     } 
     // Enable slideshow only after downloading at least two images
     if (imageSrc.length > 1) {
-      changeDisplay(imageSrc, startSlide);
+      replaceHtml(imageSrc, startSlide);
      
       startSlide.classList.add("ready");
       leftArrow.style.visibility = "visible";
