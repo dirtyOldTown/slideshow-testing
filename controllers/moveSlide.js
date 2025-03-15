@@ -2,6 +2,7 @@ import { imageStyleEditing } from "../middleware/imageStyleEdting.js";
 import { imageContainer } from "../config/variables.js";
 import { imageSrc } from "../config/imageSrc.js";
 
+// Default paramaters
 let framePosition = 0;
 let i = 0;
 let imagePosition = 0;
@@ -15,9 +16,8 @@ function moveSlideLeft() {
   let img = document.createElement("img");
   imagePosition -= 100;
 
+  imageContainer.insertAdjacentElement("beforeend", img);
   imageStyleEditing(img, i, imagePosition, imageSrc);
-
-  imageContainer.append(img);
 }
 
 function moveSlideRight() {
@@ -28,10 +28,9 @@ function moveSlideRight() {
     if (i > imageSrc.length - 1) i = 0;
     let img = document.createElement("img");
     imagePosition += 100;
-  
+
+    imageContainer.append(img);
     imageStyleEditing(img, i, imagePosition, imageSrc);
-  
-    imageContainer.append(img)
   }
   
 export { moveSlideLeft, moveSlideRight }
