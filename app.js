@@ -1,5 +1,5 @@
 import { arrows, imageLoader } from "./config/variables.js";
-import { frameWidth, frameHeight, colorPicker, resetBtn } from "./config/variables.js";
+import { frameWidth, frameHeight, resetBtn } from "./config/variables.js";
 import { slideController } from "./controllers/slideController.js";
 import { changeFrameHeight, changeFrameWidth, refresh } from "./controllers/settings.js";
 

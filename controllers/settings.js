@@ -25,5 +25,4 @@ function refresh() {
   location.reload();
 }
 
-
 export { changeFrameHeight, changeFrameWidth, refresh }
