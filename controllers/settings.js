@@ -4,10 +4,6 @@ import { arrows, frameHeight, frameWidth, slideshowFrame, image } from "../confi
 let width = 400;
 let height = 400;
 
-function changeBackground() {
-  document.body.style.backgroundColor = this.value;
-}
-
 function changeFrameHeight() {
   height = frameHeight.value;
   slideshowFrame.setAttribute("style", `height: ${height}px; width: ${width}px`);
@@ -30,4 +26,4 @@ function refresh() {
 }
 
 
-export { changeBackground, changeFrameHeight, changeFrameWidth, refresh }
+export { changeFrameHeight, changeFrameWidth, refresh }

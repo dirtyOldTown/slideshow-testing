@@ -1,13 +1,12 @@
 import { arrows, imageLoader } from "./config/variables.js";
 import { frameWidth, frameHeight, colorPicker, resetBtn } from "./config/variables.js";
 import { slideController } from "./controllers/slideController.js";
-import { changeBackground, changeFrameHeight, changeFrameWidth, refresh } from "./controllers/settings.js";
+import { changeFrameHeight, changeFrameWidth, refresh } from "./controllers/settings.js";
 
 // Starting a slideshow
 imageLoader.addEventListener('change', slideController);
 
 // Settings
-colorPicker.addEventListener("input", changeBackground);
 frameHeight.addEventListener("change", changeFrameHeight);
 frameWidth.addEventListener("change", changeFrameWidth);
 

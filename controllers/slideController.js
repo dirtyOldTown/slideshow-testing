@@ -16,7 +16,6 @@ function slideController(e) {
     // Enable slideshow only after downloading at least two images
     if (imageSrc.length > 1) {
       replaceHtml(imageSrc, startSlide);
-     
       startSlide.classList.add("ready");
       leftArrow.style.visibility = "visible";
       rightArrow.style.visibility = "visible";
