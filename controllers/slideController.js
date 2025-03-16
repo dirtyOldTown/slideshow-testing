@@ -4,7 +4,6 @@ import { moveSlideLeft, moveSlideRight } from "./moveSlide.js";
 import { replaceHtml } from "../middleware/replaceHtml.js";
 
 // Download an image from a user and add it to a slideshow sequence
-
 function slideController(e) {
   let reader = new FileReader();
   reader.onload = function(event) {
