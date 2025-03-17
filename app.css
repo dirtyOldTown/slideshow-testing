@@ -5,7 +5,7 @@ body {
 }
 /* HEADER */
 header {
-  /*border-bottom: 1px dotted #79a5ff;*/
+  border-bottom: 1px solid #79a5ff;
   background-color: #002968;
   display: flex;
   justify-content: center;
