@@ -1,6 +1,5 @@
 # Slideshow Testing
 ## About
-About
 A simple application for testing images in a slide show.
 ### Instructions
 > [!TIP]
