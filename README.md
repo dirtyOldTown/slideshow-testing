@@ -1,5 +1,5 @@
 # Slideshow Testing
-
+## Instructions
 > [!TIP]
 > \- Upload images from your collection and try out how they look in a slideshow<br>
 > \- The slideshow is activated, i.e. you can try it after at least two entered images<br>
