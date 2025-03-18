@@ -16,5 +16,5 @@ Open **Git Bash** and execute this lines of code
 - Open folder **slideshow-testing** and run **index.html** file or run on **localhost**.
 ### Quick Start
 [slideshow-testing](https://dirtyoldtown.github.io/slideshow-testing/)
-
+123
 
