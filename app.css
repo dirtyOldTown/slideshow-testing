@@ -160,6 +160,9 @@ header h1 {
 }
 
 @media screen and (max-width: 992px) {
+  .main {
+    height: 170vh
+  }
   header h1 {
     text-align: center;
   }
