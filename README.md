@@ -15,7 +15,7 @@ Open **Git Bash** and execute this lines of code
 3. git clone https://github.com/dirtyOldTown/slideshow-testing
 - Open folder **slideshow-testing** and run **index.html** file or run on **localhost**.
 ### Open in glitch
-[glitch-view](https://glitch.com/~candy-enchanted-arch))
+[glitch-view](https://glitch.com/~candy-enchanted-arch)
 ### Quick Start
 [slideshow-testing](https://candy-enchanted-arch.glitch.me)
 
