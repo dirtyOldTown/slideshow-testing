@@ -17,3 +17,4 @@ Open **Git Bash** and execute this lines of code
 ### Quick Start
 [slideshow-testing](https://candy-enchanted-arch.glitch.me)
 
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/Enter your GitHub org name e.g. reactjs/slideshow-testing)
