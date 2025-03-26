@@ -15,7 +15,7 @@ Open **Git Bash** and execute this lines of code
 3. git clone https://github.com/dirtyOldTown/slideshow-testing
 - Open folder **slideshow-testing** and run **index.html** file or run on **localhost**.
 <br>
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/candy-enchanted-arch)
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/candy-enchanted-arch))
 ### Quick Start
 [slideshow-testing](https://candy-enchanted-arch.glitch.me)
 
