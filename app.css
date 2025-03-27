@@ -182,13 +182,19 @@ header h1 {
 }
 
 @media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 1.7rem;
+  }
+  header .icon {
+    display: none;
+  }
   .slideshow {
     width: 280px;
-    height: 300px;
+    height: 400px;
   }
   .image-container img {
     width: 280px;
-    height: 300px;
+    height: 100%;
   }
   .start-slide {
     width: 250px;
