@@ -161,7 +161,7 @@ header h1 {
 
 @media screen and (max-width: 992px) {
   .main {
-    height: 170vh
+    height: 150vh
   }
   header h1 {
     text-align: center;
@@ -183,6 +183,7 @@ header h1 {
 
 @media screen and (max-width: 480px) {
   header h1 {
+    padding: 14px 7px;
     font-size: 1.7rem;
   }
   header .icon {
